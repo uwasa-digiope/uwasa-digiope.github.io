@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href = "style.css">
+		<title>Johdatus verkkojulkaisemiseen</title>
+	</head>
+	<body>
+		<script src="menu.js"></script>
+		<center>
+			<button onclick="show('kurssit')">Näytä kurssit</button>
+			<button onclick="show('ohjeet')">Näytä ohjeet</button>
+			<p style="background-color: white;"><a href="#kurssit">kurssit</a> <a href="#ohjeet">ohjeet</a></p>
+		</center>
+		<div class="flex-container">
+			<div class = "flex-item">
+				<h1 id="otsikko" class="otsikot">Tervetuloa kurssille</h1>
+				<h2 class="otsikot">Mikä on johdatus verkkojulkaisemiseen?</h2>
+				<p>Kurssilla saat <b>verkkoviestijän tarvitsemat digitaidot</b> ja paljon muuta. <a href="https://www.uwasa.fi/en/person/2318345" target="_blank">Ota yhteyttä</a> <i>Sebastian Laitilaan</i>.<br>
+				Hänet löytää huoneesta <span class="punainen">F241</span>
+				</p>
+			</div>
+			<div class = "flex-item">
+				<img src="img/omakuva.jpg" height="260px">
+			</div>
+			<div class = "flex-table" id="kurssit">
+				<table>
+					<tr>
+						<td>Syksy</td>
+						<td>Kevät</td>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+								<li>Johdatus Verkkojulkaisemiseen</li>
+								<li>Pelit ja pelikulttuurit</li>
+								<li>Viestinnän palvelumuotoilu</li>
+								<li>Digitaaliset työkalut</li>
+							</ul>
+						
+						</td>
+						<td>
+							<ul>
+								<li>Digitaalisen markkinointiviestinnän projekti</li>
+								<li>Johdatus Verkkojulkaisemiseen</li>
+								<li>Digitaaliset työkalut</li>
+								<li>Pelisuunnittelu</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class = "flex-item" id="ohjeet">
+				<h2 id="tarvittavat">Tarvittavat digitaidot ennen kursseille osallistumista</h2>
+				<ol>
+					<li>Tiedostojen avaaminen ja tallentaminen</li>
+					<li>Tiedostojen pakkaaminen ja zip-paketin avaaminen</li>
+					<li>Tiedonhakutaidot</li>
+				</ol>
+			</div>
+		</div>
+
+	</body>
+</html>
